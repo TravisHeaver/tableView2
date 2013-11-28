@@ -21,6 +21,7 @@
 		C4685AD91846CB8D00F0185A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4685AD71846CB8D00F0185A /* InfoPlist.strings */; };
 		C4685ADB1846CB8D00F0185A /* UITableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4685ADA1846CB8D00F0185A /* UITableViewControllerTests.m */; };
 		C4685AE61846CC4700F0185A /* TVViewControllerTableViewChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = C4685AE51846CC4700F0185A /* TVViewControllerTableViewChallenge.m */; };
+		C4685AE91846D60D00F0185A /* TVdoesNothing.m in Sources */ = {isa = PBXBuildFile; fileRef = C4685AE81846D60D00F0185A /* TVdoesNothing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C4685ADA1846CB8D00F0185A /* UITableViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerTests.m; sourceTree = "<group>"; };
 		C4685AE41846CC4700F0185A /* TVViewControllerTableViewChallenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVViewControllerTableViewChallenge.h; sourceTree = "<group>"; };
 		C4685AE51846CC4700F0185A /* TVViewControllerTableViewChallenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVViewControllerTableViewChallenge.m; sourceTree = "<group>"; };
+		C4685AE71846D60D00F0185A /* TVdoesNothing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVdoesNothing.h; sourceTree = "<group>"; };
+		C4685AE81846D60D00F0185A /* TVdoesNothing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVdoesNothing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				C4685AC11846CB8C00F0185A /* Main.storyboard */,
 				C4685AE41846CC4700F0185A /* TVViewControllerTableViewChallenge.h */,
 				C4685AE51846CC4700F0185A /* TVViewControllerTableViewChallenge.m */,
+				C4685AE71846D60D00F0185A /* TVdoesNothing.h */,
+				C4685AE81846D60D00F0185A /* TVdoesNothing.m */,
 				C4685AC71846CB8C00F0185A /* Images.xcassets */,
 				C4685AB61846CB8C00F0185A /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				C4685AC01846CB8C00F0185A /* TVAppDelegate.m in Sources */,
 				C4685AE61846CC4700F0185A /* TVViewControllerTableViewChallenge.m in Sources */,
+				C4685AE91846D60D00F0185A /* TVdoesNothing.m in Sources */,
 				C4685ABC1846CB8C00F0185A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
