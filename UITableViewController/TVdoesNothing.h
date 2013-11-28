@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface TVdoesNothing : NSObject
-
+@property (nonatomic) int doesnothing;
 @end
